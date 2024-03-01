@@ -1,0 +1,109 @@
+html,
+body,
+#root {
+  margin: 0;
+  height: 100%;
+}
+#root {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-app {
+  margin-top: auto;
+}
+.skill_cerDiv {
+  display: flex;
+  justify-content: center;
+  animation: fade-in-left 1s ease;
+}
+.skill_toolDev {
+  animation: fade-in-left 1s ease;
+}
+.skill_h1 {
+  animation: fade-in-left 1s ease;
+}
+.card_media {
+  padding-top: 56.25%;
+  margin-left: 2%;
+  margin-right: 2%;
+  border-radius: 0.5rem;
+  margin-top: 0.5rem;
+}
+.media {
+  width: 75%;
+  padding-top: 75%;
+  margin-left: 12.4%;
+  border-radius: 0.5rem;
+  margin-top: 0.5rem;
+}
+.nav-btn-pc {
+  display: flex;
+  justify-content: flex-end;
+  width: 85%;
+}
+.nav-btn-mobile {
+  display: flex;
+  justify-content: flex-end;
+  width: 70%;
+}
+.nav-btn-tablet {
+  display: flex;
+  justify-content: flex-end;
+  width: 80%;
+}
+.nav-app,
+.nav-life,
+.nav-skill,
+.nav-project {
+  color: black;
+  text-decoration: none;
+  transition-duration: 1s;
+  border-radius: 0.5rem;
+  font-size: 2rem;
+}
+.nav-app:hover,
+.nav-life:hover,
+.nav-skill:hover,
+.nav-project:hover {
+  background-color: aquamarine;
+  transition-duration: 1s;
+  border-radius: 0.5rem;
+}
+.app-img {
+  width: 100%;
+  animation: fade-in-left 1s;
+}
+.card {
+  opacity: 0;
+}
+.aboutList {
+  animation: fade-in-left 1s;
+}
+.slide-in {
+  opacity: 1;
+  animation: fade-in-left 1s ease;
+}
+.navbar {
+  animation: fade-in-up 1s ease;
+}
+@keyframes fade-in-left {
+  0% {
+    opacity: 0;
+    transform: translateX(-10%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes fade-in-up {
+  0% {
+    opacity: 0;
+    transform: translateY(10%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
